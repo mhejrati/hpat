@@ -1,0 +1,15 @@
+version: '3'
+services:
+  mpinode0:
+    build: .
+    ports:
+    - "5000:5000"
+  mpinode1:
+    build: .
+    ports:
+    - "5001:5001"
+  mpinode2:
+    build: .
+    ports:
+    - "5002:5002"
+
